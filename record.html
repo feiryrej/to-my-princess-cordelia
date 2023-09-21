@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Record Player</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="record.css" />
+  </head>
+  <body>
+    <div class="header">
+        <p>Love you to the <span>moon and to Saturn</span> <br>Our <span>love</span> will be passed on... Dorothea</p>
+    </div>
+    <div class="player">
+      <div class="record">
+        <div class="label"></div>
+      </div>
+      <div class="tone-arm">
+        <div class="control"></div>
+      </div>
+      <button class="btn"></button>
+      <div class="slider-container">
+        <input
+          type="range"
+          class="slider"
+          min="0"
+          max="1"
+          step="0.1"
+          value="0.7"
+        />
+      </div>
+    </div>
+    <audio loop class="my-song" src="Dorothea.mp3" preload="auto"></audio>
+    <div class="footer">
+        <p>My <span>Alexa Nicole</span></p>
+    </div>
+    <!-- Script -->
+    <script src="record.js"></script>
+  </body>
+</html>

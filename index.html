@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Card</title>
+    <!-- Google Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="outside">
+        <div class="front">
+          <p>Dear Princess Cordelia</p>
+          <div class="cake">
+            <div class="top-layer"></div>
+            <div class="middle-layer"></div>
+            <div class="bottom-layer"></div>
+            <div class="candle"></div>
+          </div>
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="inside">
+        <p> It's still surreal, the way life has unfolded, leading us on separate paths. I love you and I miss you dearly. I truly believe greatness is in your destiny, my dear. You've always been my shining star, and that will never change. No matter where life takes us, you'll forever hold a special place in my heart. Here's to the journey ahead, my star girl, always and forever. <br><br>(Clicke the Ribbon Sweetheart)</p>
+        <h1 id="redirect-link">&#127872;</h1>
+      </div>
+    </div>
+
+    <!-- JavaScript to handle the redirection -->
+    <script>
+      // Get a reference to the h1 element
+      var h1Element = document.getElementById("redirect-link");
+
+      // Add a click event listener to the h1 element
+      h1Element.addEventListener("click", function () {
+        // Redirect to record.html when the h1 is clicked
+        window.location.href = "record.html";
+      });
+    </script>
+  </body>
+</html>
